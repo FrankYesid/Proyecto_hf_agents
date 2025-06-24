@@ -1,0 +1,26 @@
+name: hf-agents-project
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - opencv-python
+  - jupyter
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - torchaudio
+  - transformers
+  - datasets
+  - accelerate
+  - huggingface_hub
+  - pip:
+    - -r requirements.txt
+
+prefix: ~/hf-agents-env
